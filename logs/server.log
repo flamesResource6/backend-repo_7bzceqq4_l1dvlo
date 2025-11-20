@@ -1,0 +1,15 @@
+INFO:     Will watch for changes in these directories: ['/home/workspace']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [154] using StatReload
+INFO:     Started server process [156]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     172.20.0.1:44682 - "GET /api/justifications?requester_email=alice%40example.com HTTP/1.1" 200 OK
+INFO:     172.20.0.1:44686 - "GET /api/inbox?approver_email=manager%40example.com HTTP/1.1" 200 OK
+INFO:     172.20.0.1:44682 - "GET /api/justifications?requester_email=alice%40example.com HTTP/1.1" 200 OK
+INFO:     172.20.0.1:44686 - "GET /api/inbox?approver_email=manager%40example.com HTTP/1.1" 200 OK
+INFO:     172.20.0.1:45410 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:38094 - "GET /api/justifications?requester_email=alice%40example.com HTTP/1.1" 200 OK
+INFO:     172.20.0.1:38102 - "GET /api/inbox?approver_email=manager%40example.com HTTP/1.1" 200 OK
+INFO:     172.20.0.1:38094 - "GET /api/justifications?requester_email=alice%40example.com HTTP/1.1" 200 OK
+INFO:     172.20.0.1:38102 - "GET /api/inbox?approver_email=manager%40example.com HTTP/1.1" 200 OK
